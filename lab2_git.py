@@ -83,6 +83,9 @@ def toss_coin():
         Hint: Using random.randint() function.
     """
     coin = 'Head'
+    number = random.randint(1,2) #Generates random number - either 1 or 2
+    if number == 1:
+        coin = 'Tail'
     return coin
 
 
